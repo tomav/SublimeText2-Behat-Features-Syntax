@@ -15,6 +15,14 @@ The Behat Features syntax highlight can be found in the menu under View > Syntax
 * Scenario, Scenario Outline, Background
 * Given, Then, When, And, But
 * | multi | columns | data | sets |
-* Comments
+* Comments (with keyboard shortcut `Cmd/`)
 * Tags
 * Placeholders
+
+## History
+
+Previously using https://github.com/omissis/sublime-behat-syntax where i pulled some improvments but :
+* some features were still missing
+* json files not available on github, a pain in the ass to contribute using XML/PLIST files...
+
+## Contributors are welcome !
