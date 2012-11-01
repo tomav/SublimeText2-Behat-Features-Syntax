@@ -1,0 +1,63 @@
+{ 
+  "name": "Behat Features",
+  "comment": "SublimeText2 Syntax Definition for Behat",
+  "scopeName": "source.feature",
+  "fileTypes": ["feature"],
+  "patterns": [
+
+    {
+      "comment": "Behat definitions",
+      "name": "keyword.control.source.behat",
+      "match": "(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)"
+    },
+
+
+    { 
+      "comment": "Behat step keyword",
+      "name": "keyword.operator.step.behat",
+      "match": "(Given|When|And|But|Then)"
+    },
+
+
+    { 
+      "comment": "Behat scenario tags",
+      "name": "storage.type.class.behat",
+      "match": "(@[A-Za-z0-9]+)"
+    },
+
+
+    { 
+      "comment": "Behat comment",
+      "name": "comment.line.number-sign.behat",
+      "begin": "#",
+      "end": "\\n"
+    },
+
+
+    { 
+      "comment": "Behat strings",
+      "name": "string.quoted.double.behat",
+      "begin": "\"",
+      "end": "\""
+    },
+
+
+    { 
+      "comment": "Behat placeholders",
+      "name": "string.interpolated.behat",
+      "begin": "<",
+      "end": ">"
+    },
+
+
+    { 
+      "comment": "Behat outline examples",
+      "name": "string.quoted.other.examples.behat",
+      "begin": "\\| ",
+      "end": " \\|\\n"
+    }
+
+
+  ],
+  "uuid": "45340a49-8e17-474d-9ab0-0c17e6ca5be0"
+}

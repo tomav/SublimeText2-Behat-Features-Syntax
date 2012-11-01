@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>SublimeText2 Syntax Definition for Behat</string>
+	<key>fileTypes</key>
+	<array>
+		<string>feature</string>
+	</array>
+	<key>name</key>
+	<string>Behat Features</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Behat definitions</string>
+			<key>match</key>
+			<string>(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)</string>
+			<key>name</key>
+			<string>keyword.control.source.behat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Behat step keyword</string>
+			<key>match</key>
+			<string>(Given|When|And|But|Then)</string>
+			<key>name</key>
+			<string>keyword.operator.step.behat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Behat scenario tags</string>
+			<key>match</key>
+			<string>(@[A-Za-z0-9]+)</string>
+			<key>name</key>
+			<string>storage.type.class.behat</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#</string>
+			<key>comment</key>
+			<string>Behat comment</string>
+			<key>end</key>
+			<string>\n</string>
+			<key>name</key>
+			<string>comment.line.number-sign.behat</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>comment</key>
+			<string>Behat strings</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.behat</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>&lt;</string>
+			<key>comment</key>
+			<string>Behat placeholders</string>
+			<key>end</key>
+			<string>&gt;</string>
+			<key>name</key>
+			<string>string.interpolated.behat</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\| </string>
+			<key>comment</key>
+			<string>Behat outline examples</string>
+			<key>end</key>
+			<string> \|\n</string>
+			<key>name</key>
+			<string>string.quoted.other.examples.behat</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.feature</string>
+	<key>uuid</key>
+	<string>45340a49-8e17-474d-9ab0-0c17e6ca5be0</string>
+</dict>
+</plist>

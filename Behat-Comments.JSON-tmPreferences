@@ -1,0 +1,15 @@
+{
+  "name": "Behat Features Comments",
+  "comment": "SublimeText2 Comments Syntax for Behat",
+  "scope": "source.feature",
+  "fileTypes": ["feature"],
+  "settings": { 
+    "shellVariables": [
+      { 
+        "name": "TM_COMMENT_START",
+        "value": "# "
+      }
+    ]
+  },
+  "uuid": "a2cd264a-4c2f-427e-84eb-0344e93b1340"
+}
