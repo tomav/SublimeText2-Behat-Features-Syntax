@@ -14,14 +14,14 @@ The Behat Features syntax highlight can be found in the menu under View > Syntax
 * Feature
 * Scenario, Scenario Outline, Background
 * Given, Then, When, And, But
-* | multi | columns | data | sets |
+* `| multi | columns | data | sets |`
 * Comments (with keyboard shortcut `Cmd/`)
 * Tags
 * Placeholders
 
 ## History
 
-Previously using https://github.com/omissis/sublime-behat-syntax where i pulled some improvments but :
+Previously using [sublime-behat-syntax](https://github.com/omissis/sublime-behat-syntax) where i pulled some improvements but :
 * some features were still missing
 * json files not available on github, a pain in the ass to contribute using XML/PLIST files...
 
