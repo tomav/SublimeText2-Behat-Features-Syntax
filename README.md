@@ -19,6 +19,10 @@ The Behat Features syntax highlight can be found in the menu under View > Syntax
 * Tags
 * Placeholders
 
+## Screenshot
+
+![SublimeText2 Behat Features Syntax Highlight](http://www.ifusio.com/wp-content/uploads/2012/11/511x412xSublimeText2-Behat-Features-Syntax1.png.pagespeed.ic._QiKf0p39q.png)
+
 ## History
 
 Previously using [sublime-behat-syntax](https://github.com/omissis/sublime-behat-syntax) where i pulled some improvements but :
