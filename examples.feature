@@ -24,6 +24,19 @@ Feature: SublimeText2 Behat Features Syntax
       elit.
       """
 
+  # This is a comment line
+  # This is another comment line
+
+  Background:
+    Given a global administrator named "Greg"
+    And a blog named "Greg's anti-tax rants"
+    And a customer named "Wilson"
+    And a blog named "Expensive Therapy" owned by "Wilson"
+
+  Scenario: Wilson posts to his own blog
+    Given I am logged in as Wilson
+    When I try to post to "Expensive Therapy"
+    Then I should see "Your article was published."
 
 
 

@@ -21,7 +21,7 @@ The Behat Features syntax highlight can be found in the menu under View > Syntax
 
 ## Screenshot
 
-![SublimeText2 Behat Features Syntax Highlight](http://www.ifusio.com/wp-content/uploads/2012/11/511x412xSublimeText2-Behat-Features-Syntax1.png.pagespeed.ic._QiKf0p39q.png)
+![SublimeText2 Behat Features Syntax Highlight](http://www.ifusio.com/wp-content/uploads/2012/11/Sublime-Text-2-Behat-Features.png)
 
 ## History
 
