@@ -2,7 +2,9 @@
 
 ## Installation
 
-Clone the repo in your personal SublimeText2/Packages folder.
+    # Mac OSX
+    cd ~/Library/Application Support/Sublime Text 2/Packages
+    git clone git@github.com:tomav/SublimeText2-Behat-Features-Syntax.git
 
 ## Basic usage
 
