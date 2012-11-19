@@ -6,6 +6,8 @@
     cd ~/Library/Application Support/Sublime Text 2/Packages
     git clone git@github.com:tomav/SublimeText2-Behat-Features-Syntax.git
 
+SublimeText2 Behat Features Syntax Highlight is also available via [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
+
 ## Basic usage
 
 The syntax highlighting will be automatically applied to .feature files.
