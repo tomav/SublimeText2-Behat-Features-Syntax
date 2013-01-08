@@ -1,5 +1,7 @@
 # SublimeText2 Behat Features Syntax Highlight
 
+Works great with Cucumber too! 
+
 ## Installation
 
     # Mac OSX
@@ -34,3 +36,5 @@ Previously using [sublime-behat-syntax](https://github.com/omissis/sublime-behat
 * json files not available on github, a pain in the ass to contribute using XML/PLIST files...
 
 ## Contributors are welcome !
+
+Just Fork & Pull.
