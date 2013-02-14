@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>SublimeText2 Syntax Definition for Behat - ES</string>
+	<key>fileTypes</key>
+	<array>
+		<string>feature</string>
+	</array>
+	<key>name</key>
+	<string>Behat Features - Spanish</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.feature.generic</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Behat definitions</string>
+			<key>match</key>
+			<string>(Característica:|Ejemplos:|Escenario:|Esquema del escenario:|Antecedentes:)</string>
+			<key>name</key>
+			<string>keyword.control.source.behat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Behat step keyword</string>
+			<key>match</key>
+			<string>(Dado |Dada |Dados |Dadas |Cuando |Entonces |Y |Pero )</string>
+			<key>name</key>
+			<string>keyword.operator.step.behat</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.feature.spanish</string>
+	<key>uuid</key>
+	<string>5090c6aa-19ab-485f-b96a-7af3eba8b5b8</string>
+</dict>
+</plist>
