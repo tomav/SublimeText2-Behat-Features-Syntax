@@ -1,0 +1,25 @@
+{ 
+	"name": "Behat Features - Italian",
+	"comment": "SublimeText2 Syntax Definition for Behat - IT",
+	"scopeName": "source.feature.italian",
+	"fileTypes": ["feature"],
+	"patterns": [
+
+	    {
+	    	"include": "source.feature.generic"
+	    },
+
+	    {
+	    	"comment": "Behat definitions",
+	    	"name": "keyword.control.source.behat",
+			"match": "(Funzionalità:|Esempi:|Scenario:|Schema dello scenario:|Contesto:)"
+	    },
+
+	    { 
+	     	"comment": "Behat step keyword",
+	     	"name": "keyword.operator.step.behat",
+    		"match": "(Dato |Data |Dati |Date |Quando |Allora |E |Ma )"
+	    }
+	],
+ 	"uuid": "be973dfd-6f92-480e-9034-bd1f6570bc8e"
+}

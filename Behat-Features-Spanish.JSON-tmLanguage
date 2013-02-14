@@ -1,0 +1,25 @@
+{ 
+	"name": "Behat Features - Spanish",
+	"comment": "SublimeText2 Syntax Definition for Behat - ES",
+	"scopeName": "source.feature.spanish",
+	"fileTypes": ["feature"],
+	"patterns": [
+
+	    { 
+	    	"include": "source.feature.generic"
+	    },
+
+	    {
+	    	"comment": "Behat definitions",
+	    	"name": "keyword.control.source.behat",
+		    "match": "(Característica:|Ejemplos:|Escenario:|Esquema del escenario:|Antecedentes:)"
+	    },
+
+	    { 
+	    	"comment": "Behat step keyword",
+	    	"name": "keyword.operator.step.behat",
+		    "match": "(Dado |Dada |Dados |Dadas |Cuando |Entonces |Y |Pero )"
+	    }
+	],
+	"uuid": "5090c6aa-19ab-485f-b96a-7af3eba8b5b8"
+}

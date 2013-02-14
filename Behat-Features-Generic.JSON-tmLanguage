@@ -1,23 +1,9 @@
 { 
-  "name": "Behat Features",
+  "name": "Behat Features - Generic Syntax",
   "comment": "SublimeText2 Syntax Definition for Behat",
-  "scopeName": "source.feature",
+  "scopeName": "source.feature.generic",
   "fileTypes": ["feature"],
   "patterns": [
-
-    {
-      "comment": "Behat definitions",
-      "name": "keyword.control.source.behat",
-      "match": "(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)"
-    },
-
-
-    { 
-      "comment": "Behat step keyword",
-      "name": "keyword.operator.step.behat",
-      "match": "(Given|When|And|But|Then)"
-    },
-
 
     { 
       "comment": "Behat scenario tags",
