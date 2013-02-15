@@ -1,0 +1,26 @@
+{ 
+	"name": "Behat Features - French",
+	"comment": "SublimeText2 Syntax Definition for Behat - FR",
+	"scopeName": "source.feature.french",
+	"fileTypes": ["feature"],
+	"patterns": [
+
+	    { 
+	    	"include": "source.feature.generic"
+	    },
+	    
+	    {
+		    "comment": "Behat definitions",
+		    "name": "keyword.control.source.behat",
+		    "match": "(Fonctionnalité:|Exemples:|Scénario:|Plan du scénario:|Plan du Scénario:|Contexte:)"
+	    },
+
+	    { 
+		    "comment": "Behat step keyword",
+		    "name": "keyword.operator.step.behat",
+		    "match": "(Soit |Etant donné |Etant donnée |Etant donnés |Etant données |Étant donné |Étant donnée |Étant donnés |Étant données |Quand |Lorsque |Lorsqu'|Alors |Et |Mais )"
+	    }
+
+	],
+	"uuid": "9207e71e-8d7b-4bdc-a4a0-21796395e6ef"
+}

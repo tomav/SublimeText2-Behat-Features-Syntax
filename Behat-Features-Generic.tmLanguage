@@ -9,25 +9,9 @@
 		<string>feature</string>
 	</array>
 	<key>name</key>
-	<string>Behat Features</string>
+	<string>Behat Features - Generic Syntax</string>
 	<key>patterns</key>
 	<array>
-		<dict>
-			<key>comment</key>
-			<string>Behat definitions</string>
-			<key>match</key>
-			<string>(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)</string>
-			<key>name</key>
-			<string>keyword.control.source.behat</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Behat step keyword</string>
-			<key>match</key>
-			<string>(Given|When|And|But|Then)</string>
-			<key>name</key>
-			<string>keyword.operator.step.behat</string>
-		</dict>
 		<dict>
 			<key>comment</key>
 			<string>Behat scenario tags</string>
@@ -78,7 +62,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.feature</string>
+	<string>source.feature.generic</string>
 	<key>uuid</key>
 	<string>45340a49-8e17-474d-9ab0-0c17e6ca5be0</string>
 </dict>
