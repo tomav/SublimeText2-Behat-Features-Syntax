@@ -16,7 +16,7 @@ The syntax highlighting will be automatically applied to .feature files.
 
 The Behat Features syntax highlight can be found in the menu under View > Syntax > Behat Features.
 
-## Currently supporting :
+## Currently supporting:
 * Feature
 * Scenario, Scenario Outline, Background
 * Given, Then, When, And, But
@@ -24,6 +24,15 @@ The Behat Features syntax highlight can be found in the menu under View > Syntax
 * Comments (with keyboard shortcut `Cmd/`)
 * Tags
 * Placeholders
+
+## Supported languages:
+* English
+* French
+* German
+* Italian
+* Spanish
+
+Thanks to the community!
 
 ## Screenshot
 
@@ -35,6 +44,10 @@ Previously using [sublime-behat-syntax](https://github.com/omissis/sublime-behat
 * some features were still missing
 * json files not available on github, a pain in the ass to contribute using XML/PLIST files...
 
-## Contributors are welcome !
+## Contributing
 
-Just Fork & Pull.
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request

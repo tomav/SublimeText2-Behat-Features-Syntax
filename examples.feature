@@ -37,6 +37,8 @@ Feature: SublimeText2 Behat Features Syntax
     Given I am logged in as Wilson
     When I try to post to "Expensive Therapy"
     Then I should see "Your article was published."
+  
+
 
 
 
