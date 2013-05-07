@@ -39,6 +39,17 @@
     {
       "comment": "Translations: EN",
       "name": "keyword.control.source.behat",
+      "match": "(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)"
+    },
+    { 
+      "name": "keyword.operator.step.behat",
+      "match": "(Given |When |And |But |Then )"
+    },
+
+
+    {
+      "comment": "Translations: FR",
+      "name": "keyword.control.source.behat",
       "match": "(Fonctionnalité:|Exemples:|Scénario:|Plan du scénario:|Plan du Scénario:|Contexte:)"
     },
     { 
@@ -46,17 +57,6 @@
       "match": "(Soit |Etant donné |Etant donnée |Etant donnés |Etant données |Étant donné |Étant donnée |Étant donnés |Étant données |Quand |Lorsque |Lorsqu'|Alors |Et |Mais )"
     },
 
-
-
-    {
-      "comment": "Translations: FR",
-      "name": "keyword.control.source.behat",
-      "match": "(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)"
-    },
-    { 
-      "name": "keyword.operator.step.behat",
-      "match": "(Given |When |And |But |Then )"
-    },
 
 
 
