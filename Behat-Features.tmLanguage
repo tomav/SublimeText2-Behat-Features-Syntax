@@ -62,71 +62,81 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Translations: EN</string>
+			<string>"Source" translations: EN</string>
 			<key>match</key>
-			<string>(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)</string>
+			<string>^\s*((?:Feature|Business Need|Ability|Examples|Scenario|Scenarios|Scenario Outline|Scenario Template|Background):)</string>
 			<key>name</key>
 			<string>keyword.control.source.behat</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>"Steps" translations: EN</string>
 			<key>match</key>
-			<string>(Given |When |And |But |Then )</string>
+			<string>^\s*(Given|When|And|But|Then)\b</string>
 			<key>name</key>
 			<string>keyword.operator.step.behat</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Translations: FR</string>
+			<string>"Source" translations: FR</string>
 			<key>match</key>
-			<string>(Fonctionnalité:|Exemples:|Scénario:|Plan du scénario:|Plan du Scénario:|Contexte:)</string>
+			<string>^\s*((?:Fonctionnalité|Exemples|Scénario|Plan du scénario|Plan du Scénario|Contexte):)</string>
 			<key>name</key>
 			<string>keyword.control.source.behat</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>"Steps" translations: FR</string>
 			<key>match</key>
-			<string>(Soit |Etant donné |Etant donnée |Etant donnés |Etant données |Étant donné |Étant donnée |Étant donnés |Étant données |Quand |Lorsque |Lorsqu'|Alors |Et |Mais )</string>
+			<string>^\s*(Lorsqu(?:'|’)|Soit|Etant donné|Etant donnée|Etant donnés|Etant données|Étant donné|Étant donnée|Étant donnés|Étant données|Quand|Lorsque|Alors|Et|Mais)\b</string>
 			<key>name</key>
 			<string>keyword.operator.step.behat</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Translations: IT</string>
+			<string>"Source" translations: IT</string>
 			<key>match</key>
-			<string>(Funzionalità:|Esempi:|Scenario:|Schema dello scenario:|Contesto:)</string>
+			<string>^\s*((?:Funzionalità|Esempi|Scenario|Schema dello scenario|Contesto):)</string>
 			<key>name</key>
 			<string>keyword.control.source.behat</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>"Steps" translations: IT</string>
 			<key>match</key>
-			<string>(Dato |Data |Dati |Date |Quando |Allora |E |Ma )</string>
+			<string>^\s*(Dato|Data|Dati|Date|Quando|Allora|E|Ma)\b</string>
 			<key>name</key>
 			<string>keyword.operator.step.behat</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Translations: ES</string>
+			<string>"Source" translations: ES</string>
 			<key>match</key>
-			<string>(Característica:|Ejemplos:|Escenario:|Esquema del escenario:|Antecedentes:)</string>
+			<string>^\s*((?:Característica|Ejemplos|Escenario|Esquema del escenario|Antecedentes):)</string>
 			<key>name</key>
 			<string>keyword.control.source.behat</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>"Steps" translations: ES</string>
 			<key>match</key>
-			<string>(Dado |Dada |Dados |Dadas |Cuando |Entonces |Y |Pero )</string>
+			<string>^\s*(Dado|Dada|Dados|Dadas|Cuando|Entonces|Y|Pero)\b</string>
 			<key>name</key>
 			<string>keyword.operator.step.behat</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Translations: DE</string>
+			<string>"Source" translations: DE</string>
 			<key>match</key>
-			<string>(Funktionalität:|Beispiele:|Szenario:|Szenariogrundriss:|Grundlage:)</string>
+			<string>^\s*((?:Funktionalität|Beispiele|Szenario|Szenariogrundriss|Grundlage):)</string>
 			<key>name</key>
 			<string>keyword.control.source.behat</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>"Steps" translations: DE</string>
 			<key>match</key>
-			<string>(Angenommen |Gegeben sei |Wenn |Dann |Und |Aber )</string>
+			<string>^\s*(Angenommen|Gegeben sei|Wenn|Dann|Und|Aber)\b</string>
 			<key>name</key>
 			<string>keyword.operator.step.behat</string>
 		</dict>
