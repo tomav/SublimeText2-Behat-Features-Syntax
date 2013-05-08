@@ -1,101 +1,98 @@
-{ 
-  "name": "Behat Features",
-  "comment": "SublimeText2 Syntax Definition for Behat",
-  "scopeName": "source.feature.generic",
-  "fileTypes": ["feature"],
-  "patterns": [
-    { 
-      "comment": "Behat scenario tags",
-      "name": "storage.type.class.behat",
-      "match": "(@[A-Za-z0-9]+)"
-    },
-   { 
-      "comment": "Behat comment",
-      "name": "comment.line.number-sign.behat",
-      "begin": "#",
-      "end": "\\n"
-    },
-    { 
-      "comment": "Behat strings",
-      "name": "string.quoted.double.behat",
-      "begin": "\"",
-      "end": "\""
-    },
-    { 
-      "comment": "Behat placeholders",
-      "name": "string.interpolated.behat",
-      "begin": "<",
-      "end": ">"
-    },
-    { 
-      "comment": "Behat outline examples",
-      "name": "string.quoted.other.examples.behat",
-      "begin": "\\| ",
-      "end": " \\|\\n"
-    },
-
-
-
-    {
-      "comment": "Translations: EN",
-      "name": "keyword.control.source.behat",
-      "match": "(Feature:|Examples:|Scenario:|Scenario Outline:|Background:)"
-    },
-    { 
-      "name": "keyword.operator.step.behat",
-      "match": "(Given |When |And |But |Then )"
-    },
-
-
-    {
-      "comment": "Translations: FR",
-      "name": "keyword.control.source.behat",
-      "match": "(Fonctionnalité:|Exemples:|Scénario:|Plan du scénario:|Plan du Scénario:|Contexte:)"
-    },
-    { 
-      "name": "keyword.operator.step.behat",
-      "match": "(Soit |Etant donné |Etant donnée |Etant donnés |Etant données |Étant donné |Étant donnée |Étant donnés |Étant données |Quand |Lorsque |Lorsqu'|Alors |Et |Mais )"
-    },
-
-
-
-
-    {
-      "comment": "Translations: IT",
-      "name": "keyword.control.source.behat",
-      "match": "(Funzionalità:|Esempi:|Scenario:|Schema dello scenario:|Contesto:)"
-    },
-    { 
-      "name": "keyword.operator.step.behat",
-      "match": "(Dato |Data |Dati |Date |Quando |Allora |E |Ma )"
-    },
-
-
-
-    {
-      "comment": "Translations: ES",
-      "name": "keyword.control.source.behat",
-      "match": "(Característica:|Ejemplos:|Escenario:|Esquema del escenario:|Antecedentes:)"
-    },
-    { 
-      "name": "keyword.operator.step.behat",
-      "match": "(Dado |Dada |Dados |Dadas |Cuando |Entonces |Y |Pero )"
-    },
-
-
-
-    {
-      "comment": "Translations: DE",
-      "name": "keyword.control.source.behat",
-      "match": "(Funktionalität:|Beispiele:|Szenario:|Szenariogrundriss:|Grundlage:)"
-    },
-    { 
-      "name": "keyword.operator.step.behat",
-      "match": "(Angenommen |Gegeben sei |Wenn |Dann |Und |Aber )"
-    }
-
-
-
-  ],
-  "uuid": "45340a49-8e17-474d-9ab0-0c17e6ca5be0"
+{
+    "name": "Behat Features",
+    "comment": "SublimeText2 Syntax Definition for Behat",
+    "scopeName": "source.feature.generic",
+    "fileTypes": ["feature"],
+    "patterns": [
+        {
+            "comment": "Behat scenario tags",
+            "name": "storage.type.class.behat",
+            "match": "(@[A-Za-z0-9]+)"
+        },
+        {
+            "comment": "Behat comment",
+            "begin": "#",
+            "end": "\\n",
+            "name": "comment.line.number-sign.behat"
+        },
+        {
+            "comment": "Behat strings",
+            "begin": "\"",
+            "end": "\"",
+            "name": "string.quoted.double.behat"
+        },
+        {
+            "comment": "Behat placeholders",
+            "begin": "<",
+            "end": ">",
+            "name": "string.interpolated.behat"
+        },
+        {
+            "comment": "Behat outline examples",
+            "begin": "\\| ",
+            "end": " \\|\\n",
+            "name": "string.quoted.other.examples.behat"
+        },
+        {
+            "comment": "\"Source\" translations: EN",
+            "name": "keyword.control.source.behat",
+            "match": "^\\s*((?:Feature|Business Need|Ability|Examples|Scenario|Scenarios|Scenario Outline|Scenario Template|Background):)"
+        },
+        {
+            "comment": "\"Steps\" translations: EN",
+            "name": "keyword.operator.step.behat",
+            "match": "^\\s*(Given|When|And|But|Then)\\b"
+        },
+        {
+            "comment": "\"Source\" translations: FR",
+            "name": "keyword.control.source.behat",
+            "match": "^\\s*((?:Fonctionnalité|Exemples|Scénario|Plan du scénario|Plan du Scénario|Contexte):)"
+        },
+        {
+            "comment": "\"Steps\" translations: FR",
+            "name": "keyword.operator.step.behat",
+            "match": "^\\s*(Lorsqu(?:'|’)|Soit|Etant donné|Etant donnée|Etant donnés|Etant données|Étant donné|Étant donnée|Étant donnés|Étant données|Quand|Lorsque|Alors|Et|Mais)\\b"
+        },
+        {
+            "comment": "\"Source\" translations: IT",
+            "name": "keyword.control.source.behat",
+            "match": "^\\s*((?:Funzionalità|Esempi|Scenario|Schema dello scenario|Contesto):)"
+        },
+        {
+            "comment": "\"Steps\" translations: IT",
+            "name": "keyword.operator.step.behat",
+            "match": "^\\s*(Dato|Data|Dati|Date|Quando|Allora|E|Ma)\\b"
+        },
+        {
+            "comment": "\"Source\" translations: ES",
+            "name": "keyword.control.source.behat",
+            "match": "^\\s*((?:Característica|Ejemplos|Escenario|Esquema del escenario|Antecedentes):)"
+        },
+        {
+            "comment": "\"Steps\" translations: ES",
+            "name": "keyword.operator.step.behat",
+            "match": "^\\s*(Dado|Dada|Dados|Dadas|Cuando|Entonces|Y|Pero)\\b"
+        },
+        {
+            "comment": "\"Source\" translations: DE",
+            "name": "keyword.control.source.behat",
+            "match": "^\\s*((?:Funktionalität|Beispiele|Szenario|Szenariogrundriss|Grundlage):)"
+        },
+        {
+            "comment": "\"Steps\" translations: DE",
+            "name": "keyword.operator.step.behat",
+            "match": "^\\s*(Angenommen|Gegeben sei|Wenn|Dann|Und|Aber)\\b"
+        },
+        {
+            "comment": "\"Source\" translations: RU",
+            "name": "keyword.control.source.behat",
+            "match": "^\\s*((?:Функция|Функционал|Свойство|Примеры|Сценарий|Структура сценария|Предыстория|Контекст):)"
+        },
+        {
+            "comment": "\"Steps\" translations: RU",
+            "name": "keyword.operator.step.behat",
+            "match": "^\\s*(Допустим|Пусть|Дано|К тому же|Также|И|Когда|Если|Тогда|То|Но|А)\\b"
+        }
+    ],
+    "uuid": "45340a49-8e17-474d-9ab0-0c17e6ca5be0"
 }

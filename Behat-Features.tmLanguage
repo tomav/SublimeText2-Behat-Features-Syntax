@@ -140,6 +140,22 @@
 			<key>name</key>
 			<string>keyword.operator.step.behat</string>
 		</dict>
+		<dict>
+			<key>comment</key>
+			<string>"Source" translations: RU</string>
+			<key>match</key>
+			<string>^\s*((?:Функция|Функционал|Свойство|Примеры|Сценарий|Структура сценария|Предыстория|Контекст):)</string>
+			<key>name</key>
+			<string>keyword.control.source.behat</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>"Steps" translations: RU</string>
+			<key>match</key>
+			<string>^\s*(Допустим|Пусть|Дано|К тому же|Также|И|Когда|Если|Тогда|То|Но|А)\b</string>
+			<key>name</key>
+			<string>keyword.operator.step.behat</string>
+		</dict>		
 	</array>
 	<key>scopeName</key>
 	<string>source.feature.generic</string>
