@@ -31,6 +31,7 @@ The Behat Features syntax highlight can be found in the menu under View > Syntax
 * German
 * Italian
 * Spanish
+* Russian
 
 Thanks to the community!
 
