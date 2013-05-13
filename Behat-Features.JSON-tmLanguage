@@ -29,9 +29,15 @@
     },
     {
       "comment": "Behat outline examples",
-      "begin": "\\| ",
-      "end": " \\|\\n",
-      "name": "string.quoted.other.examples.behat"
+      "begin": "^\\s*\\|",
+      "end": "\\|\\s*$",
+      "name": "string.quoted.examples.behat",
+      "patterns": [
+        {
+          "match": "\\w+",
+          "name": "constant.other.examples.behat"
+        }
+      ]
     },
     {
       "comment": "\"Source\" translations: EN",

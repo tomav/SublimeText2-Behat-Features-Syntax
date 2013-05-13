@@ -52,13 +52,22 @@
     </dict>
     <dict>
       <key>begin</key>
-      <string>\| </string>
+      <string>^\s*\|</string>
       <key>comment</key>
       <string>Behat outline examples</string>
       <key>end</key>
-      <string> \|\n</string>
+      <string>\|\s*$</string>
       <key>name</key>
-      <string>string.quoted.other.examples.behat</string>
+      <string>string.quoted.examples.behat</string>
+      <key>patterns</key>
+      <array>
+        <dict>
+          <key>match</key>
+          <string>\w+</string>
+          <key>name</key>
+          <string>constant.other.examples.behat</string>
+        </dict>
+      </array>
     </dict>
     <dict>
       <key>comment</key>
