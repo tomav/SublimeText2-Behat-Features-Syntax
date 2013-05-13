@@ -1,3 +1,4 @@
+# EN translation
 Feature: SublimeText2 Behat Features Syntax
   In order to use this plugin
   As a SublimeText2 and Behat user
@@ -39,7 +40,19 @@ Feature: SublimeText2 Behat Features Syntax
     Then I should see "Your article was published."
   
 
+# RU translation
+Функционал: Подсветка фич Behat в Sublime Text 2/3
+  Для того, чтобы использовать этот плагин
+  Будучи пользователем Sublime Text 2/3 и Behat
+  Я должен убедиться в том, как именно подсвечивается синтаксис
 
+  Предыстория:
+    Дано Суперадминистратор по имени "Greg"
+    И блог называющийся "Greg's anti-tax rants"
+    Также Пользователь по имени "Wilson"
+    И блог называющийся "Expensive Therapy" принадлежащий "Wilson"
 
-
-
+  Сценарий: Питание
+    Пусть есть <start> огурцов
+    Когда я съем <eat> огурцов
+    То останется <left> огурцов
