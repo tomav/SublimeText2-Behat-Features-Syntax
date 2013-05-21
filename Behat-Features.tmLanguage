@@ -135,6 +135,22 @@
     </dict>
     <dict>
       <key>comment</key>
+      <string>"Source" translations: PT</string>
+      <key>match</key>
+      <string>^\s*((?:Funcionalidade|Característica|Caracteristica|Exemplos|Cenário|Cenario|Esquema do Cenário|Esquema do Cenario|Delineação do Cenário|Delineacao do Cenario|Contexto|Cenário de Fundo|Cenario de Fundo|Fundo):)</string>
+      <key>name</key>
+      <string>keyword.control.source.behat</string>
+    </dict>
+    <dict>
+      <key>comment</key>
+      <string>"Steps" translations: PT</string>
+      <key>match</key>
+      <string>^\s*(Dado|Dada|Dados|Dadas|Quando|Então|Entao|E|Mas)\b</string>
+      <key>name</key>
+      <string>keyword.operator.step.behat</string>
+    </dict>
+    <dict>
+      <key>comment</key>
       <string>"Source" translations: DE</string>
       <key>match</key>
       <string>^\s*((?:Funktionalität|Beispiele|Szenario|Szenariogrundriss|Grundlage):)</string>
