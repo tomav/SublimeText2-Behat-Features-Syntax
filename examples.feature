@@ -4,7 +4,7 @@ Feature: SublimeText2 Behat Features Syntax
   As a SublimeText2 and Behat user
   I need to see what the syntax highlight looks like
 
-  @outline @placeholders
+  @outline @placeholders @other_tag
   Scenario Outline: Eating
     Given there are <start> cucumbers
     When I eat <eat> cucumbers

@@ -16,7 +16,7 @@
       <key>comment</key>
       <string>Behat scenario tags</string>
       <key>match</key>
-      <string>(@[A-Za-z0-9]+)</string>
+      <string>(@[A-Za-z0-9_]+)</string>
       <key>name</key>
       <string>storage.type.class.behat</string>
     </dict>

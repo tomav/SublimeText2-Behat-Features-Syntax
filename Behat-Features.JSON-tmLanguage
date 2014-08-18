@@ -7,7 +7,7 @@
     {
       "comment": "Behat scenario tags",
       "name": "storage.type.class.behat",
-      "match": "(@[A-Za-z0-9]+)"
+      "match": "(@[A-Za-z0-9_]+)"
     },
     {
       "comment": "Behat comment",
